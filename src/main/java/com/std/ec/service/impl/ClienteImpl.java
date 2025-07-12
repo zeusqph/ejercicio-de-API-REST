@@ -4,7 +4,9 @@ import com.std.ec.model.dao.ClienteDAO;
 import com.std.ec.model.entity.Cliente;
 import com.std.ec.service.ICliente;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ClienteImpl implements ICliente {
 
     @Autowired

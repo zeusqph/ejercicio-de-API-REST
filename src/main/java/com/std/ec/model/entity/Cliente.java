@@ -26,7 +26,7 @@ public class Cliente implements Serializable {
     private String apellido;
 
     @Column(name = "correo")
-    private Integer correo;
+    private String correo;
 
     @Column(name = "fecha_registro")
     private Date fechaRegistro;
